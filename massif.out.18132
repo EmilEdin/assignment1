@@ -1,0 +1,671 @@
+desc: (none)
+cmd: ./freq_count small.txt
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=121638
+mem_heap_B=152
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=122309
+mem_heap_B=344
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=detailed
+n2: 344 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 192 0x108BDB: entry_create (hash_table.c:19)
+  n1: 192 0x108C87: ioopm_hash_table_create (hash_table.c:43)
+   n0: 192 0x10A77F: main (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+ n1: 152 0x108C6B: ioopm_hash_table_create (hash_table.c:41)
+  n0: 152 0x10A77F: main (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+#-----------
+snapshot=3
+#-----------
+time=123083
+mem_heap_B=560
+mem_heap_extra_B=288
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=123818
+mem_heap_B=1032
+mem_heap_extra_B=304
+mem_stacks_B=0
+heap_tree=detailed
+n3: 1032 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 472 0x48E9327: __fopen_internal (iofopen.c:65)
+  n1: 472 0x10A657: process_file (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+   n0: 472 0x10A7B7: main (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+ n1: 408 0x108BDB: entry_create (hash_table.c:19)
+  n1: 408 0x108C87: ioopm_hash_table_create (hash_table.c:43)
+   n0: 408 0x10A77F: main (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+ n1: 152 0x108C6B: ioopm_hash_table_create (hash_table.c:41)
+  n0: 152 0x10A77F: main (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+#-----------
+snapshot=5
+#-----------
+time=124538
+mem_heap_B=5248
+mem_heap_extra_B=328
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=125458
+mem_heap_B=5368
+mem_heap_extra_B=320
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=126208
+mem_heap_B=5374
+mem_heap_extra_B=338
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=127132
+mem_heap_B=5404
+mem_heap_extra_B=372
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=128065
+mem_heap_B=5434
+mem_heap_extra_B=406
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=129168
+mem_heap_B=5486
+mem_heap_extra_B=458
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=130066
+mem_heap_B=5515
+mem_heap_extra_B=493
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=131171
+mem_heap_B=5551
+mem_heap_extra_B=521
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=132209
+mem_heap_B=5562
+mem_heap_extra_B=534
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=132804
+mem_heap_B=5586
+mem_heap_extra_B=550
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=133702
+mem_heap_B=5615
+mem_heap_extra_B=585
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=134922
+mem_heap_B=5642
+mem_heap_extra_B=622
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=135875
+mem_heap_B=5645
+mem_heap_extra_B=643
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=136417
+mem_heap_B=5669
+mem_heap_extra_B=659
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=137480
+mem_heap_B=5703
+mem_heap_extra_B=689
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=139040
+mem_heap_B=5709
+mem_heap_extra_B=707
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=140149
+mem_heap_B=5733
+mem_heap_extra_B=723
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=141194
+mem_heap_B=5767
+mem_heap_extra_B=753
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=142243
+mem_heap_B=5801
+mem_heap_extra_B=783
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=143220
+mem_heap_B=5810
+mem_heap_extra_B=798
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=143750
+mem_heap_B=5834
+mem_heap_extra_B=814
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=144764
+mem_heap_B=5841
+mem_heap_extra_B=831
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=145322
+mem_heap_B=5865
+mem_heap_extra_B=847
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=146302
+mem_heap_B=5871
+mem_heap_extra_B=865
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=146834
+mem_heap_B=5895
+mem_heap_extra_B=881
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=147884
+mem_heap_B=5929
+mem_heap_extra_B=911
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=148867
+mem_heap_B=5935
+mem_heap_extra_B=929
+mem_stacks_B=0
+heap_tree=detailed
+n7: 5935 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4096 0x48E88F3: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 4096 0x48F71FF: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x48F71FF: _IO_doallocbuf (genops.c:342)
+    n1: 4096 0x48F633F: _IO_file_underflow@@GLIBC_2.17 (fileops.c:485)
+     n1: 4096 0x48EA1C7: getdelim (iogetdelim.c:73)
+      n1: 4096 0x10A673: process_file (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+       n0: 4096 0x10A7B7: main (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+ n3: 840 0x108BDB: entry_create (hash_table.c:19)
+  n1: 408 0x108C87: ioopm_hash_table_create (hash_table.c:43)
+   n0: 408 0x10A77F: main (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+  n1: 312 0x108F43: hash_table_insert (hash_table.c:107)
+   n1: 312 0x109097: ioopm_hash_table_insert (hash_table.c:134)
+    n1: 312 0x10A617: process_word (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+     n1: 312 0x10A6DF: process_file (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+      n0: 312 0x10A7B7: main (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+  n1: 120 0x108F23: hash_table_insert (hash_table.c:104)
+   n1: 120 0x109097: ioopm_hash_table_insert (hash_table.c:134)
+    n1: 120 0x10A617: process_word (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+     n1: 120 0x10A6DF: process_file (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+      n0: 120 0x10A7B7: main (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+ n1: 472 0x48E9327: __fopen_internal (iofopen.c:65)
+  n1: 472 0x10A657: process_file (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+   n0: 472 0x10A7B7: main (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+ n1: 240 0x48EA06F: getdelim (iogetdelim.c:102)
+  n1: 240 0x10A673: process_file (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+   n0: 240 0x10A7B7: main (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+ n1: 152 0x108C6B: ioopm_hash_table_create (hash_table.c:41)
+  n0: 152 0x10A77F: main (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+ n1: 135 0x491051F: strdup (strdup.c:42)
+  n1: 135 0x10A5F3: process_word (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+   n1: 135 0x10A6DF: process_file (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+    n0: 135 0x10A7B7: main (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+ n0: 0 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=32
+#-----------
+time=149399
+mem_heap_B=5959
+mem_heap_extra_B=945
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=150195
+mem_heap_B=5985
+mem_heap_extra_B=983
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=151128
+mem_heap_B=6015
+mem_heap_extra_B=1017
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=152014
+mem_heap_B=6022
+mem_heap_extra_B=1034
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=152454
+mem_heap_B=6046
+mem_heap_extra_B=1050
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=153481
+mem_heap_B=6079
+mem_heap_extra_B=1081
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=154631
+mem_heap_B=6083
+mem_heap_extra_B=1101
+mem_stacks_B=0
+heap_tree=detailed
+n7: 6083 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4096 0x48E88F3: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 4096 0x48F71FF: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x48F71FF: _IO_doallocbuf (genops.c:342)
+    n1: 4096 0x48F633F: _IO_file_underflow@@GLIBC_2.17 (fileops.c:485)
+     n1: 4096 0x48EA1C7: getdelim (iogetdelim.c:73)
+      n1: 4096 0x10A673: process_file (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+       n0: 4096 0x10A7B7: main (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+ n3: 960 0x108BDB: entry_create (hash_table.c:19)
+  n1: 408 0x108C87: ioopm_hash_table_create (hash_table.c:43)
+   n0: 408 0x10A77F: main (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+  n1: 408 0x108F43: hash_table_insert (hash_table.c:107)
+   n1: 408 0x109097: ioopm_hash_table_insert (hash_table.c:134)
+    n1: 408 0x10A617: process_word (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+     n1: 408 0x10A6DF: process_file (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+      n0: 408 0x10A7B7: main (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+  n1: 144 0x108F23: hash_table_insert (hash_table.c:104)
+   n1: 144 0x109097: ioopm_hash_table_insert (hash_table.c:134)
+    n1: 144 0x10A617: process_word (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+     n1: 144 0x10A6DF: process_file (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+      n0: 144 0x10A7B7: main (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+ n1: 472 0x48E9327: __fopen_internal (iofopen.c:65)
+  n1: 472 0x10A657: process_file (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+   n0: 472 0x10A7B7: main (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+ n1: 240 0x48EA06F: getdelim (iogetdelim.c:102)
+  n1: 240 0x10A673: process_file (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+   n0: 240 0x10A7B7: main (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+ n1: 163 0x491051F: strdup (strdup.c:42)
+  n1: 163 0x10A5F3: process_word (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+   n1: 163 0x10A6DF: process_file (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+    n0: 163 0x10A7B7: main (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+ n1: 152 0x108C6B: ioopm_hash_table_create (hash_table.c:41)
+  n0: 152 0x10A77F: main (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+ n0: 0 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=39
+#-----------
+time=155357
+mem_heap_B=6107
+mem_heap_extra_B=1117
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=156461
+mem_heap_B=6119
+mem_heap_extra_B=1129
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=157121
+mem_heap_B=6143
+mem_heap_extra_B=1145
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=158342
+mem_heap_B=6152
+mem_heap_extra_B=1160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=159099
+mem_heap_B=6176
+mem_heap_extra_B=1176
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=160074
+mem_heap_B=6182
+mem_heap_extra_B=1194
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=160867
+mem_heap_B=6206
+mem_heap_extra_B=1210
+mem_stacks_B=0
+heap_tree=peak
+n7: 6206 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4096 0x48E88F3: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 4096 0x48F71FF: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x48F71FF: _IO_doallocbuf (genops.c:342)
+    n1: 4096 0x48F633F: _IO_file_underflow@@GLIBC_2.17 (fileops.c:485)
+     n1: 4096 0x48EA1C7: getdelim (iogetdelim.c:73)
+      n1: 4096 0x10A673: process_file (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+       n0: 4096 0x10A7B7: main (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+ n3: 1056 0x108BDB: entry_create (hash_table.c:19)
+  n1: 456 0x108F43: hash_table_insert (hash_table.c:107)
+   n1: 456 0x109097: ioopm_hash_table_insert (hash_table.c:134)
+    n1: 456 0x10A617: process_word (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+     n1: 456 0x10A6DF: process_file (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+      n0: 456 0x10A7B7: main (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+  n1: 408 0x108C87: ioopm_hash_table_create (hash_table.c:43)
+   n0: 408 0x10A77F: main (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+  n1: 192 0x108F23: hash_table_insert (hash_table.c:104)
+   n1: 192 0x109097: ioopm_hash_table_insert (hash_table.c:134)
+    n1: 192 0x10A617: process_word (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+     n1: 192 0x10A6DF: process_file (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+      n0: 192 0x10A7B7: main (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+ n1: 472 0x48E9327: __fopen_internal (iofopen.c:65)
+  n1: 472 0x10A657: process_file (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+   n0: 472 0x10A7B7: main (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+ n1: 240 0x48EA06F: getdelim (iogetdelim.c:102)
+  n1: 240 0x10A673: process_file (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+   n0: 240 0x10A7B7: main (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+ n1: 190 0x491051F: strdup (strdup.c:42)
+  n1: 190 0x10A5F3: process_word (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+   n1: 190 0x10A6DF: process_file (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+    n0: 190 0x10A7B7: main (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+ n1: 152 0x108C6B: ioopm_hash_table_create (hash_table.c:41)
+  n0: 152 0x10A77F: main (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+ n0: 0 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=46
+#-----------
+time=161665
+mem_heap_B=5966
+mem_heap_extra_B=1202
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=162558
+mem_heap_B=1870
+mem_heap_extra_B=1194
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=163518
+mem_heap_B=1542
+mem_heap_extra_B=1242
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=164281
+mem_heap_B=1654
+mem_heap_extra_B=1314
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=164781
+mem_heap_B=1734
+mem_heap_extra_B=1354
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=165266
+mem_heap_B=1814
+mem_heap_extra_B=1394
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=175026
+mem_heap_B=3102
+mem_heap_extra_B=1442
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=217126
+mem_heap_B=3092
+mem_heap_extra_B=1428
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=217596
+mem_heap_B=3022
+mem_heap_extra_B=1258
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=218066
+mem_heap_B=2953
+mem_heap_extra_B=1087
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=218536
+mem_heap_B=2648
+mem_heap_extra_B=944
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=218996
+mem_heap_B=2488
+mem_heap_extra_B=848
+mem_stacks_B=0
+heap_tree=detailed
+n5: 2488 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 1056 0x108BDB: entry_create (hash_table.c:19)
+  n1: 456 0x108F43: hash_table_insert (hash_table.c:107)
+   n1: 456 0x109097: ioopm_hash_table_insert (hash_table.c:134)
+    n1: 456 0x10A617: process_word (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+     n1: 456 0x10A6DF: process_file (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+      n0: 456 0x10A7B7: main (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+  n1: 408 0x108C87: ioopm_hash_table_create (hash_table.c:43)
+   n0: 408 0x10A77F: main (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+  n1: 192 0x108F23: hash_table_insert (hash_table.c:104)
+   n1: 192 0x109097: ioopm_hash_table_insert (hash_table.c:134)
+    n1: 192 0x10A617: process_word (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+     n1: 192 0x10A6DF: process_file (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+      n0: 192 0x10A7B7: main (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+ n1: 1024 0x48E88F3: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 1024 0x48F71FF: _IO_doallocbuf (genops.c:347)
+   n2: 1024 0x48F71FF: _IO_doallocbuf (genops.c:342)
+    n1: 1024 0x48F65C7: _IO_file_overflow@@GLIBC_2.17 (fileops.c:744)
+     n1: 1024 0x48F5717: _IO_new_file_xsputn (fileops.c:1243)
+      n1: 1024 0x48F5717: _IO_file_xsputn@@GLIBC_2.17 (fileops.c:1196)
+       n1: 1024 0x48E22D3: outstring_func (vfprintf-internal.c:239)
+        n1: 1024 0x48E22D3: __vfprintf_internal (vfprintf-internal.c:1517)
+         n1: 1024 0x48D0A63: printf (printf.c:33)
+          n0: 1024 0x10A8CB: main (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 224 0x109C03: ioopm_linked_list_append (linked_list.c:39)
+  n1: 224 0x109697: ioopm_hash_table_keys (hash_table.c:290)
+   n0: 224 0x10A7DB: main (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+ n1: 152 0x108C6B: ioopm_hash_table_create (hash_table.c:41)
+  n0: 152 0x10A77F: main (in /home/ubuntu/Home/Documents/ioopm_true/emed6527/inluppar/inlupp1/assig1/freq_count)
+ n0: 32 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=58
+#-----------
+time=219456
+mem_heap_B=2328
+mem_heap_extra_B=768
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=219925
+mem_heap_B=2160
+mem_heap_extra_B=680
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=220395
+mem_heap_B=1944
+mem_heap_extra_B=536
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=220876
+mem_heap_B=1728
+mem_heap_extra_B=392
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=221344
+mem_heap_B=1512
+mem_heap_extra_B=248
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=221801
+mem_heap_B=1296
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=227139
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
