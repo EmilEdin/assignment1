@@ -1,6 +1,7 @@
 
 # assig1
 
+// Add commit for commit
 # How to run the program
 *make test
     Runs freq-count.c with all 4 different .txt files, given by the course, through valgrind 
