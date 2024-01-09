@@ -1,0 +1,18 @@
+name: refmem continuous integration test suite
+
+on:
+  push:
+    branches: []
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: test-valgrind
+      run: make memtest
+    - name: test-freq-small
+      run: make freq_small
