@@ -15,7 +15,7 @@ jobs:
     - name: update-ubuntu
       run: sudo apt-get update
     - name: setup-dependencies
-      run: sudo apt-get install clang libcunit1 libcunit1-doc libcunit1-dev valgrind lcov
+      run: sudo apt-get install gcc libcunit1 libcunit1-doc libcunit1-dev valgrind lcov
     - name: test-valgrind
       run: make memtest
     - name: test-freq-small

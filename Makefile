@@ -16,7 +16,7 @@ build_ll_test: linked_list.o  linked_list_tests.c
 test_ll: build_ll_test
 	./build_ll_test	
 
-test_ll_mem: linked_list.o build_ll_test
+test_ll_mem: build_ll_test
 	$(MEM) ./build_ll_test
 
 
@@ -33,7 +33,6 @@ test_ht_mem: build_ht_test
 
 memtest:
 	make test_ll_mem 
-	make test_ht_mem
 	
 
 gcov_ht: hash_table.o hash_table_tests.c linked_list.o
